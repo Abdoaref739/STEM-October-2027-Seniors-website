@@ -876,22 +876,9 @@ body{
         margin-left: 15%;
         margin-top: 95%;
     }
-   .countdown-section{
-        height: 950px;
-    }
     .countdown-section-header{
-        font-size: 35px;
-        margin-left: 10%;
-    }
-    #countdown-div{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 140px;
-    }
-    .countdown-box{
-        width: 50%;
-        margin-top: 45px;
+        font-size: 30px;
+        margin-left: 7%;
     }
     .progress-section{
         margin-top: 220px;
@@ -899,36 +886,41 @@ body{
     }
     .honorboard-div{
         height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     .honorboard-header{
         font-size: 50px;
         margin-left: 0%;
-        margin-top: 150px;
     }
     .honorboard-description{
         font-size: 18px;
-        margin-top: 20px;
+        margin-top: 0px;
         margin-left: 0%;
     }
-    #honorboard-button{
-        margin-top: 100px;
+    .honorboard-button{
+        width: 50%;
+        height: 150px;
+        font-size: 20px;
+    }
+    .honorboard-button2{
         width: 50%;
         height: 100px;
         font-size: 20px;
     }
-    .website-developers-div{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .website-developers-header{
-        font-size: 45px;
-    }
     #developer-card{
         margin-top: 100px;
-        margin-left: 5%;
+        margin-left: 0%;
     }
     .footer-div{
-        margin-top: 150px;
+        font-size: 20px;
+    }
+    .school-name-span{
+        display: none;
+    }
+    .footer-school-info{
+        margin-left: 0;
     }
 }
