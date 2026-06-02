@@ -863,3 +863,72 @@ body{
         margin-top: 150px;
     }
 }
+
+@media screen and (max-width: 420px){
+    .main-text{
+        font-size: 18px;
+    }
+    #seniors-main-text{
+        font-size: 35px;
+        margin-left: 15%;
+    }
+    #start-button{
+        margin-left: 15%;
+        margin-top: 95%;
+    }
+   .countdown-section{
+        height: 950px;
+    }
+    .countdown-section-header{
+        font-size: 35px;
+        margin-left: 10%;
+    }
+    #countdown-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 140px;
+    }
+    .countdown-box{
+        width: 50%;
+        margin-top: 45px;
+    }
+    .progress-section{
+        margin-top: 220px;
+        margin-left: 15%;
+    }
+    .honorboard-div{
+        height: 400px;
+    }
+    .honorboard-header{
+        font-size: 50px;
+        margin-left: 0%;
+        margin-top: 150px;
+    }
+    .honorboard-description{
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+    #honorboard-button{
+        margin-top: 100px;
+        width: 50%;
+        height: 100px;
+        font-size: 20px;
+    }
+    .website-developers-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .website-developers-header{
+        font-size: 45px;
+    }
+    #developer-card{
+        margin-top: 100px;
+        margin-left: 5%;
+    }
+    .footer-div{
+        margin-top: 150px;
+    }
+}
