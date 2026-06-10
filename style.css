@@ -563,318 +563,162 @@ body{
     margin-left: 3%;
     margin-top: 220px;
 }*/
-@media screen and (max-width: 1180px){
-    #seniors-main-text{
-        margin-left: 100px;
-    }
-    #start-button{
-        margin-top: 35%;
-    }
-    .countdown-section-header{
-        margin-left: 23%;
-        font-size: 60px;
-        margin-top: 35px;
-    }
-    .countdown-box{
-        justify-content: center;
-        align-items: center;
-        width: 25%;
-        height: 300px;
-    }
-    #countdown-label{
-        margin-top: 0;
-        margin-left: 0;
-    }
-    #countdown-counter{
-        margin-top: 0;
-        margin-left: 0;
-    }
-    .honorboard-header{
-        font-size: 100px;
-    }
-    .website-developers-header{
-        margin-left: 100px;
-    }
-    .footer-school-span{
-        font-size: 15px;
-    }
-    .school-name-span{
-    font-size: 20px;
-    margin-top: 50px;
-    }
-}
-@media screen and (max-width: 960px){
-    .main-text{
-        margin-left: 25%;
-        font-size: 28px;
-    }
-    #seniors-main-text{
-        font-size: 55px;
-        margin-left: 15%;
-    }
-    #start-button{
-        margin-left: 36%;
-        margin-top: 40%;
-    }
-    .countdown-section{
-        justify-content: center;
-        align-items: center;
-    }
-    .countdown-section-header{
-        margin-left: 0;
-    }
-    #countdown-div{
-        margin-left: 0;
-    }
-    .footer-school-span{
-        font-size: 14px;
-    }
-    .school-name-span{
-        font-size: 15px;
-    }
-    .progress-section{
-        margin-left: 0;
-    }
-}
-@media screen and (max-width: 850px){
-    .gradient-hero-div{
-        justify-content: center;
-        align-items: center;
-    }
-    #seniors-main-text{
-        font-size: 50px;
-    }
-    .countdown-section{
-        justify-content: center;
-        align-items: center;
-    }
-    .countdown-section-header{
-        margin-left: 0;
-    }
-    #countdown-div{
-        margin-left: 0;
-    }
-    #countdown-counter{
-        font-size: 70px;
-    }
-    #countdown-div{
-        margin-left: 10%;
-    }
-    .honorboard-header{
-        margin-left: 15%;
-        font-size: 90px;
-    }
-    .honorboard-description{
-        font-size: 30px;
-        margin-left: 17%;
-    }
-    .website-developers-header{
-        font-size: 60px;
-        margin-left: 50px;
-    }
-}
-
-@media screen and (max-width: 750px){
+@media screen and (max-width: 920px){
     .main-text{
         font-size: 25px;
     }
     #seniors-main-text{
-        font-size: 48px;
-        margin-left: 9%;
+        font-size: 60px;
+        margin-bottom: 50px;
     }
     #start-button{
-        margin-left: 33%;
-        margin-top: 50%;
-    }
-   .countdown-section{
-        height: 950px;
+        margin-top: 150px;
     }
     .countdown-section-header{
-        font-size: 35px;
-        margin-left: 10%;
+        font-size: 60px;
+        margin-top: 50px;
+        margin-left: 150px;
     }
     #countdown-div{
+        margin-left: 70px;
+    }
+    .progress-section {
+        margin-left: 140px;
+        margin-top: 0;
+    }
+    .honorboard-div {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 140px;
     }
-    .countdown-box{
-        width: 50%;
-        margin-top: 45px;
+    .honorboard-header {
+        font-size: 90px;
+    }
+    .website-developers-header{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 800px){
+    #seniors-main-text{
+        font-size: 50px;
+    }
+    #start-button{
+        margin-left: 250px;
+    }
+    .countdown-section-header {
+        font-size: 45px;
+    }
+    #countdown-div{
+        margin-left: 50px;
     }
     .progress-section{
-        margin-top: 220px;
-        margin-left: 15%;
+        margin-left: 100px;
     }
-    .honorboard-div{
-        height: 400px;
-        justify-content: center;
-        align-items: center;
+    .website-developers-header{
+        margin-left: 30px;
     }
-    .honorboard-header{
-        font-size: 55px;
-        margin-top: 150px;
+}
+@media screen and (max-width: 660px){
+    #seniors-main-text{
+        font-size: 45px;
     }
-    .honorboard-description{
-        position: absolute;
-        font-size: 20px;
+    #start-button{
+        margin-left: 200px;
+    }
+    .countdown-section{
+        height: 1300px;
+    }
+    .countdown-section-header{
+        font-size: 45px;
+        margin-left: 100px;
+    }
+    #countdown-div{
+        flex-direction: column;
+        margin-top: 250px;
+    }
+    .countdown-box {
+        padding: 30px;
         margin-top: 20px;
     }
-    #honorboard-button{
-        margin-top: 100px;
-        margin-left: 26%;
-        width: 50%;
-        height: 50px;
-        font-size: 20px;
+    .progress-section{
+        margin-top: 270px;
+    }
+    .honorboard-header{
+        font-size: 80px;
     }
     .website-developers-div{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .website-developers-header{
-        font-size: 45px;
+        margin-top: 50px;
+        margin-left: 200px;
     }
     #developer-card{
         margin-top: 100px;
-        margin-left: 5%;
-    }
-    .footer-div{
-        margin-top: 150px;
+        margin-left: 160px;
     }
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 580px){
     .main-text{
-        font-size: 20px;
+        font-size: 22px;
+        margin-top: 250px;
     }
     #seniors-main-text{
-        font-size: 40px;
-        margin-left: 15%;
+        font-size: 38px;
     }
     #start-button{
-        margin-left: 20%;
-        margin-top: 80%;
+        margin-top: 100px;
+        margin-left: 120px;
     }
-   .countdown-section{
-        height: 950px;
+    .countdown-section{
+        height: 1400px;
     }
-    .countdown-section-header{
-        font-size: 35px;
-        margin-left: 10%;
+    .honorboard-header{
+        font-size: 60px;
     }
-    #countdown-div{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 140px;
+    .honorboard-description{
+        font-size: 25px;
+    }
+    .website-developers-header{
+        margin-left: 150px;
+        font-size: 50px;
+    }
+    #developer-card{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 450px){
+    #seniors-main-text{
+        font-size: 45px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    #start-button{
+        margin-top: 150px;
+        margin-left: 80px;
     }
     .countdown-box{
-        width: 50%;
-        margin-top: 45px;
+        width: 150px;
+    }
+    #countdown-div{
+        margin-left: 35px;
     }
     .progress-section{
-        margin-top: 220px;
-        margin-left: 15%;
-    }
-    .honorboard-div{
-        height: 400px;
+        margin-left: 50px;
     }
     .honorboard-header{
         font-size: 50px;
-        margin-left: 0%;
-        margin-top: 150px;
     }
     .honorboard-description{
         font-size: 18px;
-        margin-top: 20px;
-        margin-left: 0%;
     }
-    #honorboard-button{
-        margin-top: 100px;
-        width: 50%;
-        height: 100px;
-        font-size: 20px;
-    }
-    .website-developers-div{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .honorboard-button2{
+        width: 350px;
     }
     .website-developers-header{
-        font-size: 45px;
+        margin-left: 100px;
     }
     #developer-card{
-        margin-top: 100px;
-        margin-left: 5%;
-    }
-    .footer-div{
-        margin-top: 150px;
-    }
-}
-
-@media screen and (max-width: 420px){
-    .gradient-hero-div{
-        justify-content: center;
-        align-items: center;
-    }
-    .main-text{
-        font-size: 18px;
-        margin-left: 10px;
-    }
-    #seniors-main-text{
-        margin-left: 25px;
-        font-size: 35px;
-    }
-    #start-button{
-        margin-top: 95%;
-        margin-left: 45px;
-    }
-    .countdown-section-header{
-        font-size: 30px;
-        margin-left: 7%;
-        margin-top: 100;
-    }
-    #countdown-div{
-        margin-left: 0px;
-        margin-top: 200px;
-    }
-    .progress-section{
-        margin-top: 250px;
-    }
-    .options-div{
-        font-size: 35px;
-        margin-top: 50px;
-    }
-    .honorboard-div{
-        height: 400px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .honorboard-header{
-        font-size: 40px;
-        margin-left: 0%;
-        margin-top: 50px;
-    }
-    .honorboard-description{
-        font-size: 18px;
-        margin-top: -40px;
-        margin-left: 0%;
-    }
-
-    #developer-card{
-        margin-top: 100px;
-        margin-left: 0%;
-    }
-    .footer-div{
-        font-size: 20px;
-    }
-    .school-name-span{
-        display: none;
-    }
-    .footer-school-info{
-        margin-left: 0;
+        margin-left: 50px;
     }
 }
