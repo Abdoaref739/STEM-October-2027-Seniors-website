@@ -6,6 +6,7 @@ function mouseDown(e){
     document.addEventListener("mousemove", mouseMove);
     document.addEventListener("mouseup", mouseUp);
 }
+element.addEventListener("mousedown", mouseDown);
 function mouseMove(e){
     newX = startX - e.clientX;
     newY = startY - e.clientY;
@@ -18,7 +19,6 @@ function mouseUp(e){
     document.removeEventListener("mousemove", mouseMove);
     document.removeEventListener("mouseup", mouseUp);
 }
-    element.addEventListener("mousedown", mouseDown);
 }
 makeDraggable(document.getElementById("sticker1"));
 makeDraggable(document.getElementById("sticker2"));
@@ -80,6 +80,13 @@ optionIcon3.addEventListener("mouseover", function(){
 optionIcon4.addEventListener("mouseover", function(){
     honorboardDiv.style.backgroundImage = "url('./images/seniors-pic.jpg')";
 })
+
+
+
+let honorboardButton = document.querySelector(".honorboard-button");
+honorboardButton.addEventListener("click", function(){
+    location.href = "./seniors.html";
+});
 
 //developercard logic
 let developerCard = document.getElementById("developer-card");

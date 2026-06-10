@@ -63,7 +63,7 @@ body{
     z-index: 1000;
     margin-top: 230px;
 }
-#seniors-main-text{
+.seniors-main-text{
     position: absolute;
     font-family: "MainFont", sans-serif;
     font-size: 70px;
@@ -239,6 +239,8 @@ body{
     font-family: "MainFont", sans-serif;
     user-select: none;
     -webkit-user-drag: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #countdown-counter{
     font-size: 90px;
