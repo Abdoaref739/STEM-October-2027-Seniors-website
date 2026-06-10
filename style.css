@@ -63,7 +63,7 @@ body{
     z-index: 1000;
     margin-top: 230px;
 }
-.seniors-main-text{
+#seniors-main-text{
     position: absolute;
     font-family: "MainFont", sans-serif;
     font-size: 70px;
@@ -687,6 +687,21 @@ body{
     }
     #developer-card{
         margin-left: 100px;
+    }
+}
+@media screen and (max-width: 500px){
+    #seniors-main-text{
+        font-size: 35px;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    #start-button{
+        margin-lefT: 80px;
+        margin-top: 150px;
+    }
+    .countdown-section-header{
+        font-size: 32px;
+        margin-left: 55px;
     }
 }
 @media screen and (max-width: 450px){
