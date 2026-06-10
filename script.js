@@ -54,16 +54,32 @@ minutesCountdown.innerHTML = minutes;
 secondsCountdown.innerHTML = seconds;
 
 var progress = Math.floor((dateDiff / FinalDate) * 100);
-console.log(progress)
 progressBar.style.width  = progress + "px";
 progressbarText.innerHTML = progress + "%";
 }, 1000);
 
 
-//progressbar logic
+let optionIcon1 = document.getElementById("options-icon1");
+let optionIcon2 = document.getElementById("options-icon2");
+let optionIcon3 = document.getElementById("options-icon3");
+let optionIcon4 = document.getElementById("options-icon4");
+let honorboardDiv = document.querySelector(".honorboard-div");
 
+optionIcon1.addEventListener("mouseover", function(){
+    honorboardDiv.style.backgroundImage = "url('./images/seniors-pic.jpg')";
+})
 
+optionIcon2.addEventListener("mouseover", function(){
+    honorboardDiv.style.backgroundImage = "url('./images/seniors-pic.jpg')";
+})
 
+optionIcon3.addEventListener("mouseover", function(){
+    honorboardDiv.style.backgroundImage = "url('./images/seniors-pic.jpg')";
+})
+
+optionIcon4.addEventListener("mouseover", function(){
+    honorboardDiv.style.backgroundImage = "url('./images/seniors-pic.jpg')";
+})
 
 //developercard logic
 let developerCard = document.getElementById("developer-card");

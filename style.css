@@ -46,31 +46,32 @@ body{
     background-position: center;
 }
 .gradient-hero-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     background-image: -webkit-linear-gradient(transparent , #285ccc96, #285ccccc);
 }.main-text{
-    position: absolute;
     color: #fff2bd;
     font-size: 35px;
     font-family: "TitleFont", sans-serif;
     font-weight: 300;
-    margin-top: 200px;
-    margin-left: 25%;
     user-select: none;
     -webkit-user-drag: none;
     z-index: 1000;
+    margin-top: 230px;
 }
 #seniors-main-text{
     position: absolute;
     font-family: "MainFont", sans-serif;
     font-size: 70px;
     color:#fff2bd;
-    margin-left: 15%;
-    margin-top: 240px;
     user-select: none;
     -webkit-user-drag: none;
     z-index: 1000;
+    margin-top: -30px;
 }
 #container{
     width: 100%;
@@ -192,7 +193,7 @@ body{
     font-family: "TitleFont", sans-serif;
     font-weight: 400;
     cursor: pointer;
-    margin-top: 30%;
+    margin-top: 150px;
     margin-left: 39%;
 }
 #start-button:hover{
@@ -218,6 +219,8 @@ body{
 #countdown-div{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 85%;
     height: 50%;
     margin-top: 50px;
@@ -306,6 +309,8 @@ body{
 .honorboard-div{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 600px;
     background-image: url("./images/header-1.jpg");
@@ -330,7 +335,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 20%;
+    width: 200px;
     height: 40px;
     font-weight: 400;
 }
@@ -501,7 +506,7 @@ body{
     background-color: #285cccc7;
     color: #fff2bd;
 }
-
+/*
 .footer-div{
     display: flex;
     flex-direction: row;
@@ -557,7 +562,7 @@ body{
     font-weight: 200;
     margin-left: 3%;
     margin-top: 220px;
-}
+}*/
 @media screen and (max-width: 1180px){
     #seniors-main-text{
         margin-left: 100px;
@@ -585,11 +590,7 @@ body{
         margin-left: 0;
     }
     .honorboard-header{
-        margin-left: 16%;
         font-size: 100px;
-    }
-    .honorboard-description{
-        margin-left: 250px;
     }
     .website-developers-header{
         margin-left: 100px;
@@ -615,6 +616,16 @@ body{
         margin-left: 36%;
         margin-top: 40%;
     }
+    .countdown-section{
+        justify-content: center;
+        align-items: center;
+    }
+    .countdown-section-header{
+        margin-left: 0;
+    }
+    #countdown-div{
+        margin-left: 0;
+    }
     .footer-school-span{
         font-size: 14px;
     }
@@ -622,22 +633,26 @@ body{
         font-size: 15px;
     }
     .progress-section{
-        margin-left: 15%;
+        margin-left: 0;
     }
 }
 @media screen and (max-width: 850px){
-    .main-text{
-        margin-left: 20%;
+    .gradient-hero-div{
+        justify-content: center;
+        align-items: center;
     }
     #seniors-main-text{
         font-size: 50px;
-        margin-left: 12%;
     }
-    .countdown-box{
-        margin-left: 5px;
+    .countdown-section{
+        justify-content: center;
+        align-items: center;
     }
-    #countdown-label{
-        font-size: 40px;
+    .countdown-section-header{
+        margin-left: 0;
+    }
+    #countdown-div{
+        margin-left: 0;
     }
     #countdown-counter{
         font-size: 70px;
@@ -658,73 +673,7 @@ body{
         margin-left: 50px;
     }
 }
-@media screen and (max-width: 560px){
-    .main-text{
-        font-size: 20px;
-        margin-left: 10%;
-    }
-    #seniors-main-text{
-        font-size: 50px;
-        margin-left: 5%;
-    }
-    #start-button{
-        margin-top: 85%;
-        margin-left: 20%;
-    }
-    .countdown-section{
-        height: 950px;
-    }
-    .countdown-section-header{
-        font-size: 35px;
-        margin-left: 10%;
-    }
-    #countdown-div{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 140px;
-    }
-    .countdown-box{
-        width: 60%;
-        margin-top: 45px;
-    }
-    .progress-section{
-        margin-top: 220px;
-        margin-left: 15%;
-    }
-    .honorboard-div{
-        height: 400px;
-    }
-    .honorboard-header{
-        font-size: 55px;
-        margin-left: 10%;
-        margin-top: 150px;
-    }
-    .honorboard-description{
-        position: absolute;
-        font-size: 20px;
-        margin-left: 12%;
-        margin-top: 20px;
-    }
-    #honorboard-button{
-        margin-top: 100px;
-        margin-left: 25%;
-        width: 50%;
-        height: 50px;
-        font-size: 20px;
-    }
-    .website-developers-div{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .website-developers-header{
-        font-size: 45px;
-    }
-    .footer-div{
-        margin-top: 100px;
-    }
-}
+
 @media screen and (max-width: 750px){
     .main-text{
         font-size: 25px;
@@ -760,16 +709,16 @@ body{
     }
     .honorboard-div{
         height: 400px;
+        justify-content: center;
+        align-items: center;
     }
     .honorboard-header{
         font-size: 55px;
-        margin-left: 25%;
         margin-top: 150px;
     }
     .honorboard-description{
         position: absolute;
         font-size: 20px;
-        margin-left: 25%;
         margin-top: 20px;
     }
     #honorboard-button{
@@ -865,24 +814,37 @@ body{
 }
 
 @media screen and (max-width: 420px){
+    .gradient-hero-div{
+        justify-content: center;
+        align-items: center;
+    }
     .main-text{
         font-size: 18px;
+        margin-left: 10px;
     }
     #seniors-main-text{
+        margin-left: 25px;
         font-size: 35px;
-        margin-left: 15%;
     }
     #start-button{
-        margin-left: 15%;
         margin-top: 95%;
+        margin-left: 45px;
     }
     .countdown-section-header{
         font-size: 30px;
         margin-left: 7%;
+        margin-top: 100;
+    }
+    #countdown-div{
+        margin-left: 0px;
+        margin-top: 200px;
     }
     .progress-section{
-        margin-top: 220px;
-        margin-left: 15%;
+        margin-top: 250px;
+    }
+    .options-div{
+        font-size: 35px;
+        margin-top: 50px;
     }
     .honorboard-div{
         height: 400px;
@@ -892,24 +854,16 @@ body{
         flex-direction: column;
     }
     .honorboard-header{
-        font-size: 50px;
+        font-size: 40px;
         margin-left: 0%;
+        margin-top: 50px;
     }
     .honorboard-description{
         font-size: 18px;
-        margin-top: 0px;
+        margin-top: -40px;
         margin-left: 0%;
     }
-    .honorboard-button{
-        width: 50%;
-        height: 150px;
-        font-size: 20px;
-    }
-    .honorboard-button2{
-        width: 50%;
-        height: 100px;
-        font-size: 20px;
-    }
+
     #developer-card{
         margin-top: 100px;
         margin-left: 0%;
