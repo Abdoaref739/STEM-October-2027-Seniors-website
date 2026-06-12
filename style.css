@@ -705,17 +705,20 @@ body{
     }
 }
 @media screen and (max-width: 450px){
+    .main-text{
+        font-size: 18px;
+    }
     #seniors-main-text{
-        font-size: 45px;
+        font-size: 40px;
         margin-left: 20px;
         margin-top: 50px;
     }
     #start-button{
         margin-top: 150px;
-        margin-left: 80px;
+        margin-left: 50px;
     }
     .countdown-box{
-        width: 150px;
+        width: 100px;
     }
     #countdown-div{
         margin-left: 35px;
@@ -733,9 +736,14 @@ body{
         width: 350px;
     }
     .website-developers-header{
-        margin-left: 100px;
+        margin-left: 80px;
     }
     #developer-card{
+        width: 70%;
+        height: 100%;
         margin-left: 50px;
+    }
+    #developer-image{
+        width: 550px;
     }
 }
