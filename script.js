@@ -59,25 +59,26 @@ progressbarText.innerHTML = progress + "%";
 }, 1000);
 
 
+
+
+
 let optionIcon1 = document.getElementById("options-icon1");
 let optionIcon2 = document.getElementById("options-icon2");
 let optionIcon3 = document.getElementById("options-icon3");
 let optionIcon4 = document.getElementById("options-icon4");
 let honorboardDiv = document.querySelector(".honorboard-div");
-
-optionIcon1.addEventListener("mouseover", function(){
+let honorboardHeader = document.querySelector(".honorboard-header");
+optionIcon1.addEventListener("click", function(){
     honorboardDiv.style.backgroundImage = "url('./images/seniors-pic.jpg')";
 })
-
-optionIcon2.addEventListener("mouseover", function(){
+optionIcon2.addEventListener("click", function(){
+    honorboardDiv.style.backgroundImage = "url('./images/alumini.webp')";
+    honorboardHeader.innerHTML = "Discover our alum!";
+})
+optionIcon3.addEventListener("click", function(){
     honorboardDiv.style.backgroundImage = "url('./images/seniors-pic.jpg')";
 })
-
-optionIcon3.addEventListener("mouseover", function(){
-    honorboardDiv.style.backgroundImage = "url('./images/seniors-pic.jpg')";
-})
-
-optionIcon4.addEventListener("mouseover", function(){
+optionIcon4.addEventListener("click", function(){
     honorboardDiv.style.backgroundImage = "url('./images/seniors-pic.jpg')";
 })
 
@@ -85,7 +86,7 @@ optionIcon4.addEventListener("mouseover", function(){
 
 let honorboardButton = document.querySelector(".honorboard-button");
 honorboardButton.addEventListener("click", function(){
-    location.href = "./seniors.html";
+    location.href = "#";
 });
 
 //developercard logic
@@ -102,4 +103,9 @@ developerCard.addEventListener("mouseout", function(){
     developerImage.src = "./images/developer-image.png";
     developerImage.style.marginTop = "-132px";
     developerImage.style.marginRight = "40px";
+});
+
+let githubButton = document.getElementById("developer-github-button");
+githubButton.addEventListener("click", function(){
+    location.href = "https://www.github.com/abdoaref739";
 });
