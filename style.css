@@ -749,4 +749,9 @@ body{
     #developer-image{
         width: 550px;
     }
+    #sticker2{
+        width: 10px;
+        height: auto;
+        left: 280px;
+    }
 }
