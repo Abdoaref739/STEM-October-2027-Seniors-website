@@ -730,10 +730,10 @@ body{
         margin-left: 50px;
     }
     .honorboard-header{
-        font-size: 50px;
+        font-size: 45px;
     }
     .honorboard-description{
-        font-size: 18px;
+        font-size: 16px;
     }
     .honorboard-button2{
         width: 350px;
@@ -750,8 +750,18 @@ body{
         width: 550px;
     }
     #sticker2{
-        width: 10px;
-        height: auto;
         left: 280px;
+    }
+    #sticker3{
+        left: 250px;
+    }
+    #sticker8{
+        left: 30px;
+    }
+    #sticker9{
+        left: 250px;
+    }
+        #sticker10{
+        left: 200px;
     }
 }
