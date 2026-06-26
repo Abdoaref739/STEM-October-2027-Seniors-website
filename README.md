@@ -5,7 +5,6 @@
 - Create a digital memory archive for the Class of 2027
 - Make senior information accessible in a fun and interactive way
 - Preserve school memories for future generations
-- Practice modern web development skills
 ###  Countdown & Events
 - Graduation countdown
 - Upcoming senior events
